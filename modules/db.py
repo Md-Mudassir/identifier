@@ -4,7 +4,7 @@ import numpy as np
 
 def get_db():
     client = pymongo.MongoClient(
-        "mongodb+srv://m001-student:m001-mongodb-basics@cluster0-pv37l.mongodb.net/test?retryWrites=true&w=majority")
+        "mongodb+srv://m001-student:m001-mongodb-basics@cluster0-pv37l.mongodb.net/identifyFaces?retryWrites=true&w=majority")
     db = client.facer
     return db
 
