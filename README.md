@@ -2,7 +2,7 @@
 Identify Face Recognition API in Python
 
 ## End Points
-#### Upload an image which returns an ID
+### Upload an image which returns an ID
 
 Params: image -- Image File
 
