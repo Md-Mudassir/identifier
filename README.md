@@ -1,5 +1,5 @@
 # identifier
-Identify Face Recognition API in Python
+Identify - [Face Recognition API](https://github.com/ageitgey/face_recognition) in Python, for identifying faces in an image.
 
 ## End Points
 ### Upload an image which returns an ID
