@@ -17,6 +17,7 @@ Header: Content-Type: application/json
 Params: image_id -- [id of the image]
 
 data -- data of the coressponding image
+
 `https://identifyapi.herokuapp.com/image/data`
 
 ### Query image
