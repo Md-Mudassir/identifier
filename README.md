@@ -3,6 +3,7 @@ Identify - [Face Recognition API](https://github.com/ageitgey/face_recognition) 
 
 ## End Points
 ### Upload an image which returns an ID
+Method=['POST']
 
 Params: image -- Image File
 
@@ -11,6 +12,7 @@ Returns: image_id -- [id of the image]
 `https://identifyapi.herokuapp.com/image/upload`
 
 ### Add image data to image id
+Method=['POST']
 
 Header: Content-Type: application/json
 
@@ -21,6 +23,7 @@ data -- data of the coressponding image
 `https://identifyapi.herokuapp.com/image/data`
 
 ### Query image
+Method=['POST']
 
 Params: image -- Image File
 
