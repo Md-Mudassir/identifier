@@ -10,7 +10,7 @@ Params: image -- Image File
 Returns: image_id -- [id of the image]
 
 `https://identifyapi.herokuapp.com/image/upload`
-[Add](https://github.com/Md-Mudassir/identifier/blob/master/img/addimg.JPG)
+![Add](https://github.com/Md-Mudassir/identifier/blob/master/img/addimg.JPG)
 
 ### Add image data to image id
 Method=['POST']
@@ -22,7 +22,7 @@ Params: image_id -- [id of the image]
 data -- data of the coressponding image
 
 `https://identifyapi.herokuapp.com/image/data`
-[Add Data](https://github.com/Md-Mudassir/identifier/blob/master/img/addimgdata.JPG)
+![Add Data](https://github.com/Md-Mudassir/identifier/blob/master/img/addimgdata.JPG)
 
 ### Query image
 Method=['POST']
@@ -30,4 +30,4 @@ Method=['POST']
 Params: image -- Image File
 
 `https://identifyapi.herokuapp.com/image/query`
-[query img](https://github.com/Md-Mudassir/identifier/blob/master/img/result.JPG)
+![query img](https://github.com/Md-Mudassir/identifier/blob/master/img/result.JPG)
